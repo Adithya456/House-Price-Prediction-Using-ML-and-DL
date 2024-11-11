@@ -95,3 +95,12 @@ pip install -r requirements.txt
 ## Results and Conclusion
 - **Best Model**: The best results were obtained using the Extreme Gradient Boosting (XGB) model with a log-transformed target variable and all features. This model achieved an R² score of 0.88, demonstrating robust performance for house price prediction on this dataset.
 - **Conclusion**: The findings indicate that the XGB model with log-transformed data and all features provides the most accurate predictions, making it a reliable choice for house price estimation. This project highlights the importance of preprocessing and feature selection in enhancing model accuracy for regression tasks.
+
+## Contributing
+Contributions are welcome! If you find any issues or want to improve the code, feel free to open a pull request or create an issue in the repository.
+
+## License
+This project is licensed under the [MIT License](./LICENSE). See the LICENSE file for more details.
+
+
+For more details, please refer to the [project report](./House_Price_Prediction_Report.pdf).
