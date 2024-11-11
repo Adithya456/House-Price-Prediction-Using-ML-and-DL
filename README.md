@@ -64,8 +64,8 @@ For the deep learning model, all features were used without additional feature s
   - **Loss Function**: Mean Squared Error (MSE).
   - **Evaluation Metrics**: Mean Absolute Error (MAE) and R² score.
   - **Early Stopping**: Implemented to prevent overfitting by monitoring validation loss.
- 
-![image](https://github.com/user-attachments/assets/3b10d1b7-3bd1-44b4-8ca6-bcab51b48a7f)
+
+![Training vs Validation Loss](Train_vs_Val_Loss.png)
   
 The graph above shows the model’s training loss vs. validation loss, with a minimal difference indicating the model is not overfitting. The optimized neural network achieved a final performance with an **MSE** of **0.0023** and an **R² score** of **0.83** on unseen test data, indicating strong predictive capability for the house pricing dataset.
 
